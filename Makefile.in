@@ -78,7 +78,7 @@ realclean: clean
 
 DATE=$(shell date "+%B %Y")
 
-MAN1DIR = man/man1
+MAN1DIR = share/man/man1
 
 install: doxywizard_install doxysearch_install
 	$(INSTTOOL) -d $(DESTDIR)$(INSTALL)/bin
